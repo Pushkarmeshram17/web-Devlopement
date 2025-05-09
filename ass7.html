@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment No.7</title>
+</head>
+<body>
+    <h1>Demonstrate the use of link tags in HTML</h1>
+    <!DOCTYPE html>
+<html>
+<head>
+    <title>Website Frames Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .frame-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .frame-box {
+            width: 400px;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            padding: 10px;
+        }
+
+        iframe {
+            width: 100%;
+            height: 250px;
+            border: none;
+        }
+
+        .visit-btn {
+            margin-top: 10px;
+            display: inline-block;
+            padding: 8px 16px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .visit-btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Popular Websites</h1>
+
+    <div class="frame-container">
+
+        <div class="frame-box">
+            <h3>YouTube</h3>
+            <iframe src="https://www.youtube.com" title="YouTube Preview"></iframe>
+            <a href="https://www.youtube.com" target="_blank" class="visit-btn">Visit YouTube</a>
+        </div>
+
+        <div class="frame-box">
+            <h3>Chrome</h3>
+            <iframe src="https://www.google.com/chrome/" title="Chrome Preview"></iframe>
+            <a href="https://www.google.com/chrome/" target="_blank" class="visit-btn">Visit Chrome</a>
+        </div>
+
+        <div class="frame-box">
+            <h3>Wikipedia</h3>
+            <iframe src="https://www.wikipedia.org" title="Wikipedia Preview"></iframe>
+            <a href="https://www.wikipedia.org" target="_blank" class="visit-btn">Visit Wikipedia</a>
+        </div>
+
+    </div>
+
+</body>
+</html>
+
+    
+</body>
+</html>
